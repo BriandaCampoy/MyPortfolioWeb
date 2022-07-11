@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NintendoFont';
+    src: url('./assets/fonts/FOTRodin\ Pro\ M.otf');
+}
+@font-face {
+    font-family: 'NintendoFontBold';
+    src: url('./assets/fonts/FOTRodin\ Pro\ DB.otf');
+    /* src: url('./assets/fonts/FOTRodin\ Pro\ EB.otf'); */
+    /* src: url('./assets/fonts/FOTRodin\ Pro\ UB.otf'); --Muy bold*/ 
+}
+@font-face {
+    font-family: 'NintendoFontThin';
+    src: url('./assets/fonts/FOTRodin\ Pro\ L.otf');
+}
+
+:root{
+    --blue-sea:rgb(38,50,75);
+    --dark-sea:rgb(15,17,32);
+    --red-wine:rgb(118,35,43);
+    --dark-wine:rgb(78,11,18);
+    --light-gray:rgb(215,214,212);
+    --gray:rgb(106,97,95);
+    --black:#000;
+    --white:#fff;
+
+    --h1Mov:20px;
+    --xlMov:24px;
+    --lgMov:18px;
+    --mdMov:14px;
+    --smMov:12px;
+
+    --h1Dsk:30px;
+    --lgDsk:22px;
+    --mdDsk:20px;
+    --smDsk:16px;
+}
+body{
+    background-color: var(--light-gray)
+}
+/* header */
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+
+    /* background-color: #76232B;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #26324B 12%, transparent 12.5%, transparent 87%, #26324B 87.5%, #26324B), linear-gradient(150deg, #26324B 12%, transparent 12.5%, transparent 87%, #26324B 87.5%, #26324B), linear-gradient(30deg, #26324B 12%, transparent 12.5%, transparent 87%, #26324B 87.5%, #26324B), linear-gradient(150deg, #26324B 12%, transparent 12.5%, transparent 87%, #26324B 87.5%, #26324B), linear-gradient(60deg, #26324B77 25%, transparent 25.5%, transparent 75%, #26324B77 75%, #26324B77), linear-gradient(60deg, #26324B77 25%, transparent 25.5%, transparent 75%, #26324B77 75%, #26324B77);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px; */
+
+    /* background-color: #4E0B12;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #0F1120 12%, transparent 12.5%, transparent 87%, #0F1120 87.5%, #0F1120), linear-gradient(150deg, #0F1120 12%, transparent 12.5%, transparent 87%, #0F1120 87.5%, #0F1120), linear-gradient(30deg, #0F1120 12%, transparent 12.5%, transparent 87%, #0F1120 87.5%, #0F1120), linear-gradient(150deg, #0F1120 12%, transparent 12.5%, transparent 87%, #0F1120 87.5%, #0F1120), linear-gradient(60deg, #0F112077 25%, transparent 25.5%, transparent 75%, #0F112077 75%, #0F112077), linear-gradient(60deg, #0F112077 25%, transparent 25.5%, transparent 75%, #0F112077 75%, #0F112077);
+    background-size: 24px 42px;
+    background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px; */
+
+    background-color: #833840;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #3b465d 12%, transparent 12.5%, transparent 87%, #3b465d 87.5%, #3b465d), linear-gradient(150deg, #3b465d 12%, transparent 12.5%, transparent 87%, #3b465d 87.5%, #3b465d), linear-gradient(30deg, #3b465d 12%, transparent 12.5%, transparent 87%, #3b465d 87.5%, #3b465d), linear-gradient(150deg, #3b465d 12%, transparent 12.5%, transparent 87%, #3b465d 87.5%, #3b465d), linear-gradient(60deg, #3b465d77 25%, transparent 25.5%, transparent 75%, #3b465d77 75%, #3b465d77), linear-gradient(60deg, #3b465d77 25%, transparent 25.5%, transparent 75%, #3b465d77 75%, #3b465d77);
+    background-size: 42px 74px;
+    background-position: 0 0, 0 0, 21px 37px, 21px 37px, 0 0, 21px 37px;
+}
+.header__title
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    
+    /* width: 268px;
+    height: 158px; */
+    
+    background: var(--blue-sea);
+    border-radius: 10px;
+}
+.header__title .name{
+    color:var(--light-gray);
+    font-family:NintendoFontBold;
+    font-size: var(--h1Dsk);
+}
+.header__title .speciality{
+    color:var(--light-gray);
+    font-family:NintendoFont;
+    font-size: var(--lgDsk);
+}
+/* nav */
+nav{
+    background-color: var(--blue-sea);
+    display: grid;
+    grid-template-columns: 157px 1fr 157px;
+}
+nav > div{
+    align-items: center;
+}
+.homesettings{
+    width: 157px;
+    display:flex;
+    justify-content: center;
+}
+.nav__sections{
+    background-color:var(--red-wine);
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.sizing{
+    display:flex;
+    justify-content:space-evenly;
+}
+nav .icon{
+    width: 64px;
+    height: 64px;
+}
+
