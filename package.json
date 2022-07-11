@@ -1,0 +1,22 @@
+{
+  "name": "portafolio-v2",
+  "version": "1.0.0",
+  "description": "Portfolio-WebBriandaCampoy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BriandaCampoy/MyPortfolioWeb.git"
+  },
+  "keywords": [
+    "portfolioWeb"
+  ],
+  "author": "BriandaCampoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BriandaCampoy/MyPortfolioWeb/issues"
+  },
+  "homepage": "https://github.com/BriandaCampoy/MyPortfolioWeb#readme"
+}
