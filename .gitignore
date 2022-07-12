@@ -1,2 +1,6 @@
 *.png
 *.svg
+.vscode
+
+#Dependency Directories
+/node_modules

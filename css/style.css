@@ -6,17 +6,23 @@
 
 @font-face {
     font-family: 'NintendoFont';
-    src: url('./assets/fonts/FOTRodin\ Pro\ M.otf');
+    src:url('../assets/fonts/FOTRodinM.otf');
+    font-style: normal;
+    font-weight: 400;
 }
 @font-face {
     font-family: 'NintendoFontBold';
-    src: url('./assets/fonts/FOTRodin\ Pro\ DB.otf');
+    src: url('../assets/fonts/FOTRodinDB.otf');
+    font-style: normal;
+    font-weight: 700;
     /* src: url('./assets/fonts/FOTRodin\ Pro\ EB.otf'); */
     /* src: url('./assets/fonts/FOTRodin\ Pro\ UB.otf'); --Muy bold*/ 
 }
 @font-face {
     font-family: 'NintendoFontThin';
-    src: url('./assets/fonts/FOTRodin\ Pro\ L.otf');
+    src: url('../assets/fonts/FOTRodinL.otf');
+    font-style: normal;
+    font-weight: 300;
 }
 
 :root{
