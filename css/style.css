@@ -147,6 +147,7 @@ iframe{
     min-height: 490px;
     margin: 0 40px;
 }
+
 ::-webkit-scrollbar{
     display:none;
 }
