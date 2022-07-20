@@ -130,3 +130,21 @@ nav .icon{
     height: 64px;
 }
 
+.iframe__content{
+    display:flex;
+    justify-content:center;
+    background-color: var(--light-gray);
+}
+iframe{
+    max-width: 100%!important;
+    width:100vw;
+    overflow:hidden;
+    display:block;
+    height:70vh;
+    min-height: 490px;
+    margin: 0 40px;
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
