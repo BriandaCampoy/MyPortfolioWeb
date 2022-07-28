@@ -26,12 +26,12 @@
 }
 
 :root{
-    --blue-sea:rgb(38,50,75);
-    --dark-sea:rgb(15,17,32);
-    --red-wine:rgb(118,35,43);
-    --dark-wine:rgb(78,11,18);
-    --light-gray:rgb(215,214,212);
-    --gray:rgb(106,97,95);
+    --secondary-color:rgb(38,50,75);
+    --secondary-darkcolor:rgb(15,17,32);
+    --primary-color:rgb(118,35,43);
+    --primary-darkcolor:rgb(78,11,18);
+    --background-color:rgb(215,214,212);
+    --background-darkcolor:rgb(106,97,95);
     --black:#000;
     --white:#fff;
 
@@ -47,7 +47,7 @@
     --smDsk:16px;
 }
 body{
-    background-color: var(--light-gray)
+    background-color: var(--background-color)
 }
 /* header */
 header{
@@ -88,22 +88,22 @@ header{
     /* width: 268px;
     height: 158px; */
     
-    background: var(--blue-sea);
+    background: var(--secondary-color);
     border-radius: 10px;
 }
 .header__title .name{
-    color:var(--light-gray);
+    color:var(--background-color);
     font-family:NintendoFontBold;
     font-size: var(--h1Dsk);
 }
 .header__title .speciality{
-    color:var(--light-gray);
+    color:var(--background-color);
     font-family:NintendoFont;
     font-size: var(--lgDsk);
 }
 /* nav */
 nav{
-    background-color: var(--blue-sea);
+    background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: 157px 1fr 157px;
 }
@@ -116,7 +116,7 @@ nav > div{
     justify-content: center;
 }
 .nav__sections{
-    background-color:var(--red-wine);
+    background-color:var(--primary-color);
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -133,7 +133,7 @@ nav .icon{
 .iframe__content{
     display:flex;
     justify-content:center;
-    background-color: var(--light-gray);
+    background-color: var(--background-color);
 }
 iframe{
     max-width: 100%!important;
